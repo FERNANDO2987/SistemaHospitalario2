@@ -323,6 +323,7 @@ void Menu::MenuPaciente()
                 cls();
 				setColor(WHITE);
                 break;
+                //se agrega comentario
             case 4:
                 cls();
                 paciente.Eliminar(pacient);
