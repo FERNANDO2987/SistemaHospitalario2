@@ -131,7 +131,7 @@ void ProfesionalManager::BuscarPorID()
     int cantRegProfesional = archivoProfesional.contarRegistros();
     int id;
     cout <<"INGRESE EL ID DEL PROFESIONAL A BUSCAR: ";
-    cin>>id;
+    id = obtenerEnteroValidado("");
     bool encontro = false;
     for(int i = 0; i<cantRegProfesional; i++)
     {
