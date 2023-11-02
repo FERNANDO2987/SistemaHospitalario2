@@ -2846,3 +2846,219 @@
 	"TipoDocumento.h"
 	<string>
 
+1698888761 source:c:\users\lourdes\desktop\sistemahospitalario2\archivocirugia.cpp
+	<iostream>
+	"ArchivoCirugia.h"
+
+1698888761 c:\users\lourdes\desktop\sistemahospitalario2\archivocirugia.h
+	<string>
+	"Cirugia.h"
+
+1698888761 c:\users\lourdes\desktop\sistemahospitalario2\cirugia.h
+	<string>
+
+1698888761 source:c:\users\lourdes\desktop\sistemahospitalario2\archivopaciente.cpp
+	"ArchivoPaciente.h"
+	<cstdio>
+
+1698888761 c:\users\lourdes\desktop\sistemahospitalario2\archivopaciente.h
+	"Paciente.h"
+	<string>
+
+1698888761 c:\users\lourdes\desktop\sistemahospitalario2\paciente.h
+	<string>
+	"Fecha.h"
+	"Tiempo.h"
+	"TipoDocumento.h"
+
+1698888761 c:\users\lourdes\desktop\sistemahospitalario2\fecha.h
+	<iostream>
+	<cstring>
+
+1698888761 c:\users\lourdes\desktop\sistemahospitalario2\tiempo.h
+
+1698888761 c:\users\lourdes\desktop\sistemahospitalario2\tipodocumento.h
+	<iostream>
+	<string>
+
+1698888761 source:c:\users\lourdes\desktop\sistemahospitalario2\archivoprofesional.cpp
+	<iostream>
+	<string>
+	"ArchivoProfesional.h"
+	"Profesional.h"
+
+1698888761 c:\users\lourdes\desktop\sistemahospitalario2\archivoprofesional.h
+	"Profesional.h"
+	<string>
+
+1698888761 c:\users\lourdes\desktop\sistemahospitalario2\profesional.h
+	<string>
+
+1698888761 source:c:\users\lourdes\desktop\sistemahospitalario2\archivoquirofano.cpp
+	<iostream>
+	<cstdio>
+	"ArchivoQuirofano.h"
+
+1698888761 c:\users\lourdes\desktop\sistemahospitalario2\archivoquirofano.h
+	<string>
+	"Quirofano.h"
+
+1698888761 c:\users\lourdes\desktop\sistemahospitalario2\quirofano.h
+	"Tiempo.h"
+	<string>
+
+1698888761 source:c:\users\lourdes\desktop\sistemahospitalario2\cirugia.cpp
+	<string>
+	<cstring>
+	<string>
+	"Cirugia.h"
+
+1698965556 source:c:\users\lourdes\desktop\sistemahospitalario2\cirugiamanager.cpp
+	<iostream>
+	<string>
+	"CirugiaManager.h"
+	"PacienteManager.h"
+	"rlutil.h"
+
+1698888761 c:\users\lourdes\desktop\sistemahospitalario2\cirugiamanager.h
+	"Cirugia.h"
+	"Paciente.h"
+	"ArchivoCirugia.h"
+
+1698888761 c:\users\lourdes\desktop\sistemahospitalario2\pacientemanager.h
+	<iostream>
+	<string.h>
+	<cstring>
+	<sstream>
+	<cctype>
+	"ArchivoPaciente.h"
+	"ArchivoCirugia.h"
+	"Paciente.h"
+
+1698888761 c:\users\lourdes\desktop\sistemahospitalario2\rlutil.h
+	<iostream>
+	<string>
+	<cstdio>
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<sys/time.h>
+
+1698888761 source:c:\users\lourdes\desktop\sistemahospitalario2\estadocolor.cpp
+	"EstadoColor.h"
+
+1698888761 c:\users\lourdes\desktop\sistemahospitalario2\estadocolor.h
+
+1698962183 source:c:\users\lourdes\desktop\sistemahospitalario2\fecha.cpp
+	<iostream>
+	"Fecha.h"
+	<string>
+	<sstream>
+	<cctype>
+
+1698888761 source:c:\users\lourdes\desktop\sistemahospitalario2\main.cpp
+	<iostream>
+	"Menu.h"
+	"ArchivoPaciente.h"
+	"PacienteManager.h"
+	"QuirofanoManager.h"
+	"ProfesionalManager.h"
+	"CirugiaManager.h"
+	"rlutil.h"
+	"Tiempo.h"
+
+1698888761 c:\users\lourdes\desktop\sistemahospitalario2\menu.h
+
+1698888761 c:\users\lourdes\desktop\sistemahospitalario2\quirofanomanager.h
+	"Quirofano.h"
+	"ArchivoQuirofano.h"
+
+1698888761 c:\users\lourdes\desktop\sistemahospitalario2\profesionalmanager.h
+	"Profesional.h"
+	"ArchivoProfesional.h"
+
+1698888761 source:c:\users\lourdes\desktop\sistemahospitalario2\matricula.cpp
+	<iostream>
+	<string>
+	"Matricula.h"
+
+1698888761 c:\users\lourdes\desktop\sistemahospitalario2\matricula.h
+
+1698888978 source:c:\users\lourdes\desktop\sistemahospitalario2\menu.cpp
+	<iostream>
+	<cstring>
+	<cstdio>
+	<time.h>
+	"rlutil.h"
+	"Menu.h"
+	"ArchivoPaciente.h"
+	"PacienteManager.h"
+	"CirugiaManager.h"
+	"QuirofanoManager.h"
+	"Fecha.h"
+	"Tiempo.h"
+	"ProfesionalManager.h"
+
+1698888761 source:c:\users\lourdes\desktop\sistemahospitalario2\paciente.cpp
+	<string>
+	<cstring>
+	"Paciente.h"
+
+1698963530 source:c:\users\lourdes\desktop\sistemahospitalario2\pacientemanager.cpp
+	<iostream>
+	<string.h>
+	<cstring>
+	<sstream>
+	<cctype>
+	<cstdlib>
+	<ctime>
+	<unordered_set>
+	"Cirugia.h"
+	"PacienteManager.h"
+	"CirugiaManager.h"
+	"ProfesionalManager.h"
+	<iomanip>
+	"rlutil.h"
+
+1698888761 source:c:\users\lourdes\desktop\sistemahospitalario2\profesional.cpp
+	<iostream>
+	<cstring>
+	"Profesional.h"
+
+1698963749 source:c:\users\lourdes\desktop\sistemahospitalario2\profesionalmanager.cpp
+	<iostream>
+	<string.h>
+	<cstring>
+	<sstream>
+	<cctype>
+	<iomanip>
+	"ProfesionalManager.h"
+	"PacienteManager.h"
+	"rlutil.h"
+
+1698888761 source:c:\users\lourdes\desktop\sistemahospitalario2\quirofano.cpp
+	<iostream>
+	<cstring>
+	"Quirofano.h"
+
+1698888761 source:c:\users\lourdes\desktop\sistemahospitalario2\quirofanomanager.cpp
+	<iostream>
+	<string>
+	<cctype>
+	"QuirofanoManager.h"
+	"Quirofano.h"
+	"Tiempo.h"
+
+1698888761 source:c:\users\lourdes\desktop\sistemahospitalario2\tiempo.cpp
+	<iostream>
+	"Tiempo.h"
+
+1698888761 source:c:\users\lourdes\desktop\sistemahospitalario2\tipodocumento.cpp
+	"TipoDocumento.h"
+	<string>
+

@@ -351,7 +351,7 @@ void PacienteManager::Eliminar(Paciente& reg) {
 	int id;
 	int pos = 0;
 	cout << "INGRESE ID A BUSCAR:";
-	cin >> id;
+	id = obtenerEnteroValidado("");
 	cout << endl;
 		for(int i = 0; i<cantRegC; i++){
 
@@ -396,7 +396,7 @@ void PacienteManager::buscarPacientePorID(){
 	int cantRegPaciente = archivo.getCantidadRegistros();
 	int id;
 	cout <<"Ingrese ID de paciente a buscar: ";
-	cin>>id;
+	id = obtenerEnteroValidado(" ");
 	bool encontro = false;
 	for(int i = 0; i<cantRegPaciente; i++){
 		paciente = archivo.leerRegistro(i);
@@ -459,7 +459,7 @@ void PacienteManager::modificarMail(){
 	int cantRegPaciente = archivo.getCantidadRegistros();
 	int id;
 	cout <<"Ingrese ID de paciente a buscar: ";
-	cin>>id;
+	id=obtenerEnteroValidado("");
     string nuevoMail;
 
 

@@ -132,7 +132,7 @@ string Fecha::toString(string formatoFecha){
 void Fecha::Cargar(){
 	cout << "DIA: ";
 _dia = obtenerEnteroValidado ("");
-while(_dia>31){
+while(_dia>31 || _dia < 1){
 	cout << "DIA invalido, por favor, ingrese un dia: ";
 	_dia = obtenerEnteroValidado ("");
 }
@@ -163,7 +163,7 @@ while(_dia == 29 && _mes == 2 && ((_anio % 4 == 0 && _anio % 100 != 0)|| _anio %
 void Fecha::CargaFechaOperacion(){
 	cout << "DIA: ";
 _dia = obtenerEnteroValidado ("");
-while(_dia>31){
+while(_dia>31 || _dia < 1){
 	cout << "DIA invalido, por favor, ingrese un dia: ";
 	_dia = obtenerEnteroValidado ("");
 }
