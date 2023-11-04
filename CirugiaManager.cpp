@@ -303,7 +303,7 @@ void CirugiaManager::buscarCirugia()
     int cantRegCirugias = archivo.getCantidadRegistros();
     int id;
     cout <<"Ingrese ID de la cirugia a buscar: ";
-    cin>>id;
+    id=obtenerEnteroValidado("");
     bool encontro = false;
     for(int i = 0; i<cantRegCirugias; i++)
     {
@@ -344,7 +344,7 @@ void CirugiaManager::mostrarCirugiaYPaciente()
 
     int id;
     cout <<"Ingrese ID : ";
-    cin>>id;
+    id=obtenerEnteroValidado("");
     for(int i = 0; i<canteRegPacientes; i++)
     {
 
@@ -427,7 +427,7 @@ void CirugiaManager::modificarCursoDeCirugia()
     int cantRegCirugia = archivo.getCantidadRegistros();
     int id;
     cout <<"Ingrese ID de paciente a buscar: ";
-    cin>>id;
+    id=obtenerEnteroValidado("");
 
     int nuevoCurso;
 

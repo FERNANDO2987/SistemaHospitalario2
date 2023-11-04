@@ -139,7 +139,7 @@ while(_dia>31 || _dia < 1){
 
 cout << "MES: ";
 _mes = obtenerEnteroValidado ("");
-while (_dia>29 && _mes == 2 || _mes < 1 || _mes > 12) {
+while (_dia>29 && _mes == 2 || _mes < 1 || _mes > 12 || _dia > 30 && _mes< 8 && _mes %2== 0 || _dia > 30 && _mes > 8 && _mes%2==1) {
 
 
         cout << "Mes invalido. Por favor, ingrese un mes válido (1 a 12)." << endl;

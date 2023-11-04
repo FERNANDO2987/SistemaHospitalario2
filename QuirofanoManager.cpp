@@ -137,7 +137,7 @@ void QuirofanoManager::BuscarPorID()
     int cantRegQuirofano = archivoQuirofano.getCantidadRegistros();
     int id;
     cout <<"INGRESE EL ID DEL QUIROFANO A BUSCAR: ";
-    cin>>id;
+    id=obtenerEnteroValidado1("");
     bool encontro = false;
     for(int i = 0; i<cantRegQuirofano; i++)
     {

@@ -2913,7 +2913,7 @@
 	<string>
 	"Cirugia.h"
 
-1698965556 source:c:\users\lourdes\desktop\sistemahospitalario2\cirugiamanager.cpp
+1699055301 source:c:\users\lourdes\desktop\sistemahospitalario2\cirugiamanager.cpp
 	<iostream>
 	<string>
 	"CirugiaManager.h"
@@ -2954,7 +2954,7 @@
 
 1698888761 c:\users\lourdes\desktop\sistemahospitalario2\estadocolor.h
 
-1698962183 source:c:\users\lourdes\desktop\sistemahospitalario2\fecha.cpp
+1699057216 source:c:\users\lourdes\desktop\sistemahospitalario2\fecha.cpp
 	<iostream>
 	"Fecha.h"
 	<string>
@@ -3009,7 +3009,7 @@
 	<cstring>
 	"Paciente.h"
 
-1698963530 source:c:\users\lourdes\desktop\sistemahospitalario2\pacientemanager.cpp
+1698973108 source:c:\users\lourdes\desktop\sistemahospitalario2\pacientemanager.cpp
 	<iostream>
 	<string.h>
 	<cstring>
@@ -3030,7 +3030,7 @@
 	<cstring>
 	"Profesional.h"
 
-1698963749 source:c:\users\lourdes\desktop\sistemahospitalario2\profesionalmanager.cpp
+1698973108 source:c:\users\lourdes\desktop\sistemahospitalario2\profesionalmanager.cpp
 	<iostream>
 	<string.h>
 	<cstring>
@@ -3046,7 +3046,7 @@
 	<cstring>
 	"Quirofano.h"
 
-1698888761 source:c:\users\lourdes\desktop\sistemahospitalario2\quirofanomanager.cpp
+1699055487 source:c:\users\lourdes\desktop\sistemahospitalario2\quirofanomanager.cpp
 	<iostream>
 	<string>
 	<cctype>
